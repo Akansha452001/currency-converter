@@ -11,14 +11,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./portrait-woman-surrounded-by-money_23-2151683260.jpg);
+    background-image: url(./output-onlinepngtools.png);
+    
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
 
 .container {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(60px);
     padding: 2rem;
     border-radius: 1rem;
     border: 1px solid black;
