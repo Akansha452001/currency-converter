@@ -114,6 +114,11 @@ form button {
     cursor: pointer;
     color: white;
 }
+form button:hover{
+    background-color:white;
+    color:black;
+
+}
 
 .container h1 {
     text-align: center;
