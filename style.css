@@ -114,7 +114,7 @@ form button {
     cursor: pointer;
     color: white;
 }
-form button:hover{
+button:hover{
     background-color:white;
     color:black;
 
