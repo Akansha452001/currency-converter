@@ -11,13 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./output-onlinepngtools.png);
+    background-image: url(./luxa.org-opacity-changed-output-onlinepngtools.png);
     
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
 
 .container {
+    
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(60px);
     padding: 2rem;
