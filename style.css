@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(17, 3, 77);
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./portrait-woman-surrounded-by-money_23-2151683260.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.container {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(35px);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+    max-width: 90vw;
+    max-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 30vw;
+        max-height: 70vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+    .container {
+        max-width: 70vw;
+        max-height: 80vh;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    width: 6rem;
+}
+
+.select-container select {
+    font-size: 0.9rem;
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0;
+    color: rgb(17, 3, 77);
+    text-align: center;
+}
+
+form button {
+    height: 3rem;
+    background-color: rgb(17, 3, 77);
+    cursor: pointer;
+    color: white;
+}
+
+.container h1 {
+    text-align: center;
+}
